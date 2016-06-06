@@ -1,0 +1,124 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.25em;
+  width: 41.66%;
+  border: 1px solid black;
+  margin: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  float: right;
+}
+
+p {
+  font-size: 1em;
+  clear: both;
+  height: 135px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+#page {
+  width: 100%;
+  margin: 0px;
+}
+
+.section-chicken {
+  background-color: grey;
+  border: 1px solid black;
+  float: left;
+  width: 32%;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.section-beef {
+  background-color: yellow;
+  border: 1px solid black;
+  float: left;
+  width: 32%;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+.section-sushi {
+  background-color: blue;
+  border: 1px solid black;
+  float: left;
+  width: 32%;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-left: .5%;
+  margin-right: .5%;
+}
+
+#h2-chicken {
+  background-color: blue;
+}
+
+#h2-beef {
+  background-color: gray;
+}
+
+#h2-sushi {
+  background-color: yellow;
+}
+
+/* Responsive Framework */
+
+/********** Tablet view - 768 to 991px inclusive **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .section-chicken {
+    width: 49%;
+    float: left;
+  }
+
+  .section-beef {
+    width: 49%;
+    float: right;
+  }
+
+  .section-sushi {
+    clear: both;
+    width: 99%;
+    margin-right: 0px;
+    float: none;
+  }
+}
+
+/********** Mobile view - 767px and under **********/
+@media (max-width: 767px) {
+
+  .section-chicken {
+    width: 91.66%;
+    float: none;
+  }
+
+  .section-beef {
+    width: 91.66%;
+    float: none;
+  }
+
+  .section-sushi {
+    width: 91.66%;
+    float: none;
+  }
+}
