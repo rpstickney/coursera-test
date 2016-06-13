@@ -1,0 +1,20 @@
+/********** MAIN CONTENT **********/
+
+#menu-listing-1 {
+  background-color: #ff66cc;
+  padding: 10px 10px;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
